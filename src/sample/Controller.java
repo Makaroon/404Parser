@@ -67,9 +67,13 @@ public class Controller {
     private void writeIntoExcel(String File, Elements brokenPages, Elements brokenPages_Parent ) throws IOException {
         Workbook book = new HSSFWorkbook();
         Sheet sheet = book.createSheet("Broken Pages");
-
+        Row header = sheet.createRow(0);
+        Cell broken = header.createCell(0);
+        broken.setCellValue("Broken Pages");
+        Cell par = header.createCell(1);
+        par.setCellValue("Parents");
         for (int i = 0; i < brokenPages.size(); i++){
-            Row row = sheet.createRow(i);
+            Row row = sheet.createRow(i + 1);
             Cell page = row.createCell(0);
             page.setCellValue(brokenPages.get(i).tagName());
             Cell parent = row.createCell(1);
