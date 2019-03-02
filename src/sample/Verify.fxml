@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.ImageView?>
+
+<BorderPane fx:controller="sample.VerifyController"
+            xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white;">
+    <center>
+        <ImageView fx:id="imageViewer" onMouseClicked="#onMouseClickedEvent"/>
+    </center>
+</BorderPane>

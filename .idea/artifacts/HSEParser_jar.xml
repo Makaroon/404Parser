@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HSEParser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HSEParser_jar</output-path>
+    <root id="archive" name="HSEParser.jar">
+      <element id="module-output" name="HSEParser" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jsoup-1.11.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaJARS/commons-codec-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaJARS/poi-3.12-20150511.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaJARS/poi-ooxml-3.12-20150511.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaJARS/poi-ooxml-schemas-3.12-20150511.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaJARS/xmlbeans-2.6.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
